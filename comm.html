@@ -1,0 +1,7 @@
+
+<h1>{{.Title}}</h1>
+
+<form action="/exec/" method="POST">
+    <div><input type="text" name="body" {{printf "%s" .Body}} ></div>
+    <div><input type="submit" value="Exec"></div>
+</form>
